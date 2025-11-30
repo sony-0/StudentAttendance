@@ -1,10 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'  // This should match the name you set in Global Tool Configuration
-        jdk 'JDK11'     // Optional if using Java
-    }
+   
 
     stages {
         stage('Checkout') {
